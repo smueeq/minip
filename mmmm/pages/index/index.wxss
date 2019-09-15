@@ -1,0 +1,21 @@
+
+.nav{
+  background: #6DA800;
+  padding:20rpx;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-family:"微软雅黑";
+  font-size:36rpx;
+}
+
+.inputvalue{
+  
+  background: #ACCDC4;
+  padding: 30rpx;
+  border-left-width: 10rpx;
+  font-family:"微软雅黑";
+  font-size:36rpx;}
+ .jisuan{
+border-radius: 92%;
+ }

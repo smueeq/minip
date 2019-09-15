@@ -1,0 +1,53 @@
+<form bindsubmit="submitProduct">
+<view class="nav">
+
+<view class="guoqiaocss">
+<picker name="guoqiaos" value="{{index1}}"   bindchange="changeIndex1"  range="{{guoqiaos}}">
+<view class="picker">
+{{guoqiaos[index1]}}</view>
+</picker>
+</view>
+
+</view>
+
+<view class="nav">
+<view class="selectcity">
+
+<picker name="chanjia" value="{{index2}}"   bindchange="changeIndex2"  range="{{changjia}}">
+<view class="picker">
+{{changjia[index2]}}</view>
+</picker>
+
+
+
+
+
+</view>
+
+</view>
+<view class="nav">
+<view class="selectcity">
+
+<picker name="ltjqs" value="{{index3}}"   bindchange="changeIndex3"  range="{{ltjqs}}">
+
+<view class="picker">
+{{ltjqs[index3]}}</view>
+</picker>
+
+</view>
+</view>
+
+<view class="inputvalue">
+<input name="swmyz" placeholder="上纬密齿轮" />
+</view>
+
+<view class="inputvalue">
+<input name="xwmyz" placeholder="下纬密齿轮" />
+</view>
+<view class="classname">纬密：{{weimi}}</view>
+<view class="jisuan">
+<button form-type="submit">计算</button></view>
+
+
+
+</form>
